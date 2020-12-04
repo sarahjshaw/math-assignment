@@ -6,6 +6,6 @@ const button = document.getElementById('button')
 
 button.addEventListener('click', () => { 
     const sum = firstInput.value * secondInput.value
-    total.innerText = sum;
+    total.value = sum;
 })
 
