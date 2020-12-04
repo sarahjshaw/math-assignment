@@ -4,8 +4,6 @@ const total = document.getElementById('total');
 const button = document.getElementById('button')
 
 
-
-
 button.addEventListener('click', () => {
     let firstNum = firstInput.value;
     let secondNum = secondInput.value;
