@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function subtract(num1, num2) {
     num1 = Number(document.getElementById("numOne").value);
     num2 = Number(document.getElementById("numTwo").value);
@@ -10,12 +9,10 @@ function subtract(num1, num2) {
     
      
     
-
-  
     
 
 
-=======
+
 function getAddition(firstNum, secondNum){
     num1 = Number(document.getElementById('firstNum').value);
     num2 = Number(document.getElementById('secondNum').value);
@@ -39,4 +36,23 @@ function getAddition(firstNum, secondNum){
 
 // let addButton = document.querySelector('.addition');
 // addButton.addEventListener('click', getAddition);
->>>>>>> 4004b85e0b1d3f8c4feda0aaed6fcda067a06087
+
+
+
+// const button = document.querySelector('#button')
+
+// button.addEventListener('click', () => { 
+//     const firstInput = document.getElementById('first-number');
+//     const secondInput = document.getElementById('second-number');
+//     const total = document.getElementById('total');
+//     const sum = firstInput.value * secondInput.value
+//     total.value = sum;
+// })
+
+function getTotal() {
+  const firstInput = document.getElementById('first-number');
+  const secondInput = document.getElementById('second-number');
+  const total = document.getElementById('total');
+  const sum = firstInput.value * secondInput.value
+  total.value = sum; 
+}
